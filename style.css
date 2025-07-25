@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #cbc2ff;
+    gap: 20px;
+}
+
+.container {
+    width: 720px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap; 
+    border: 2px solid #000000;
+}
+
+.container div {
+    background-color: #23089c;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#edit {
+    padding: 10px 20px;
+    background-color: #302d3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
